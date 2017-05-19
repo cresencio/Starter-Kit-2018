@@ -33,7 +33,7 @@ var Layout = function (_Component) {
     var _this = _possibleConstructorReturn(this, (Layout.__proto__ || Object.getPrototypeOf(Layout)).call(this));
 
     _this.state = {
-      name: 'Joe'
+      name: 'Cresencio'
     };
     return _this;
   }
@@ -54,7 +54,8 @@ var Layout = function (_Component) {
             _react2.default.createElement(
               'h1',
               null,
-              'JOES COMPONENT'
+              this.state.name + "'s",
+              ' COMPONENT'
             ),
             _react2.default.createElement(
               'div',

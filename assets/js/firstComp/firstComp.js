@@ -5,7 +5,7 @@ class Layout extends Component {
   constructor () {
     super()
     this.state = {
-      name: 'Joe'
+      name: 'Cresencio'
     }
   }
   render () {
@@ -13,7 +13,7 @@ class Layout extends Component {
         <div className='Aligner'>
           <div className='Aligner-item'>
             <img src='/img/logo.png' />
-            <h1>JOES COMPONENT</h1>
+            <h1>{this.state.name + "'s"} COMPONENT</h1>
             <div className='menu'>
               <ul>
                 <li><a href='http://starterkit.codingphase.com' target='new'>Documentation</a></li>
